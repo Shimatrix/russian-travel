@@ -1,0 +1,25 @@
+.place__title {
+  color: #fff;
+  font-size: 72px;
+  font-family: "inter-black";
+  line-height: 76px;
+  margin: 0 0 48px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 36px;
+    max-width: calc(100% - 32px);
+    text-align: start;
+    margin-left: 16px;
+  }
+}
