@@ -50,19 +50,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /*Конец секция footer*/
-header,
-section,
-body,
-footer,
-p,
-h1,
-h2,
-h3,
-div,
-img,
-a,
-ul,
-li,
-nav {
-  border: 1px solid red;
-}
