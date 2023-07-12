@@ -1,7 +1,8 @@
 .place__link {
   color: #fff;
   font-size: 18px;
-  font-family: "inter-regular";
+  font-family: "inter", Arial, sans-serif;
+  font-weight: "inter-regular";
   line-height: 22px;
   text-decoration-line: underline;
   margin: 0;

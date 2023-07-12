@@ -1,9 +1,11 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter/fonts.css);
 @import url(../blocks/page/page.css);
 /*Начало секция header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_line/header__lang-link_line.css);
 /*Конец секция header*/
 /*Начало секция lead*/
 @import url(../blocks/lead/lead.css);
@@ -25,13 +27,14 @@
 /*Конец секция photo-grid*/
 /*Начало секция places*/
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/place/place.css);
-@import url(../blocks/places/place/__title/place__title.css);
-@import url(../blocks/places/place/__website/place__website.css);
-@import url(../blocks/places/place/__website/_url-heading/place__website_url-heading.css);
-@import url(../blocks/places/place/__link/place__link.css);
-@import url(../blocks/places/place/__image/place__image.css);
-@import url(../blocks/places/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 /*Конец секция places*/
 /*Начало секция cover*/
 @import url(../blocks/cover/cover.css);
@@ -43,8 +46,23 @@
 /*Начало секция footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /*Конец секция footer*/
-/*Подключение шрифтов*/
-@import url(../fonts/inter/fonts.css);
+header,
+section,
+body,
+footer,
+p,
+h1,
+h2,
+h3,
+div,
+img,
+a,
+ul,
+li,
+nav {
+  border: 1px solid red;
+}

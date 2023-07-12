@@ -2,11 +2,18 @@
   color: #fff;
   text-align: center;
   font-size: 72px;
-  font-family: "inter-black";
+  font-family: "inter", Arial, sans-serif;
+  font-weight: "inter-black";
   line-height: 76px;
   max-width: calc(100% - 624px);
   z-index: 1;
   margin: 0 0 32px 0;
+}
+
+@media screen and (max-width: 1140px) {
+  .cover__title {
+    max-width: calc(100% - 500px);
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,9 +22,23 @@
   }
 }
 
+@media screen and (max-width: 896px) {
+  .cover__title {
+    max-width: calc(100% - 350px);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .cover__title {
     max-width: calc(100% - 208px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cover__title {
+    font-size: 50px;
+    line-height: 1.1;
+    max-width: calc(100% - 100px);
   }
 }
 

@@ -1,7 +1,8 @@
 .intro__title {
   color: #fff;
   font-size: 54px;
-  font-family: "inter-black";
+  font-family: "inter", Arial, sans-serif;
+  font-weight: "inter-black";
   line-height: 58px;
   width: 100%;
   margin: 0;

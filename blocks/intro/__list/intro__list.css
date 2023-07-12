@@ -1,7 +1,8 @@
 .intro__list {
   color: #fff;
   font-size: 12px;
-  font-family: "inter-bold";
+  font-family: "inter", Arial, sans-serif;
+  font-weight: "inter-bold";
   line-height: 18px;
   list-style: none;
   margin: 0;
