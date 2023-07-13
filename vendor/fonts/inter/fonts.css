@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "inter-regular";
+  font-family: "inter";
   src: url("./static/Inter-Regular.woff")
       format("woff"),
     url("./static/Inter-Regular.woff2")
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: "inter-bold";
+  font-family: "inter";
   src: url("./static/Inter-Bold.woff")
       format("woff"),
     url("./static/Inter-Bold.woff2")
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: "inter-black";
+  font-family: "inter";
   src: url("./static/Inter-Black.woff")
       format("woff"),
     url("./static/Inter-Black.woff2")
