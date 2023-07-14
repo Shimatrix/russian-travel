@@ -40,5 +40,6 @@
   .place__paragraph {
     max-width: calc(100% - 32px);
     margin: 32px auto 25px auto;
+    line-height: 26px;
   }
 }
